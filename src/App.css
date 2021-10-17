@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+body{
+  background-color: darkgray;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  background-color: cadetblue;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-items{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  
+}
+button{
+  
+  margin-left: 1070px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background-color:rgb(84, 196, 102);
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif
 }
 
-.App-link {
-  color: #61dafb;
+button:hover{
+  background-color: white;
+}
+.avatar{
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#main{
+  padding: 25px 50px;
+  margin-left:auto;
+  margin-right: auto;
+  display: none;
+}
+.profile{
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 300px;
+  margin: 12px auto;
+  text-align: center;
+  font-family: arial;
+  padding: 25px;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.profile:hover{
+  transition: 200ms;
+  box-shadow: 16px 16px 16px 16px rgb(46, 46, 46);
+  transform: translateY(-3px);
+
+}
+.email{
+  color:black;
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.name{
+  font-size: 25px;
+  font-family: fantasy;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.loader{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first-h2{
+  font-family: cursive;
+  margin-left: 30px;
 }
